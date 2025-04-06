@@ -67,6 +67,7 @@ nav {
 
 .btn-contato {
     background-color: #FFA83D;
+    text-decoration: none;
     color: #ffffff;
     border: none;
     border-radius: 50px;
@@ -124,4 +125,10 @@ footer {
     justify-content: center;
     margin: 10px 80px;
     width: 50%
+}
+
+.card-box {
+    -webkit-box-shadow: -14px 18px 81px -15px rgba(0,0,0,0.54);
+    -moz-box-shadow: -14px 18px 81px -15px rgba(0,0,0,0.54);
+    box-shadow: -14px 18px 81px -15px rgba(0,0,0,0.54);
 }
