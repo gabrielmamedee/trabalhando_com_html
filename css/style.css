@@ -22,6 +22,17 @@ header {
     color: #ffffff;
 }
 
+.h1-header {
+    
+}
+
+.img-thumbnail {
+    border: none;
+    width: 100px;
+}
+.log-tecnologias {
+    margin: 85px 80px;
+}
 nav {
     position: fixed;
     background-color: #ffffff;
@@ -131,4 +142,21 @@ footer {
     -webkit-box-shadow: -14px 18px 81px -15px rgba(0,0,0,0.54);
     -moz-box-shadow: -14px 18px 81px -15px rgba(0,0,0,0.54);
     box-shadow: -14px 18px 81px -15px rgba(0,0,0,0.54);
+}
+
+.avatar img {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.descricao {
+    margin-left: 100px;
+    max-width: 620px;
+}
+
+.descrao-home {
+    margin-top: 100px;
 }
