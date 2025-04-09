@@ -1,7 +1,3 @@
-<!--sobre.html
-- Contém uma tabela com dados pessoais (nome, idade, cidade).
-- Currículo com seções de Experiência, Educação e Habilidades (utilize listas).
-- Rodapé com texto: “Referências disponíveis mediante solicitação.”-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -28,9 +24,91 @@
                 <a href="./contato.html"><button class="btn-contato"><strong>contato</strong></button></a>
             </div>
         </nav>
+        <div class="title-header">
+            <h1 class="display-5">Sobre</h1>
+        </div>
     </header>
-    <section>
+    <section class="section-sobre">
+        <div class="mb-5">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Cidade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Gabriel Mamede</td>
+                    <td>26</td>
+                    <td>João Pessoa-PB</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="mt-5">
+            <h3 class="mt-5">Currículo</h3>
 
+            <section>
+              <h4>Experiência Profissional</h4>
+              <ul>
+                <li><strong>Supervisor de TI</strong> - Cidade Viva (jan de 2023 - o momento · 2 anos 4 meses)  
+                  <br>Local: João Pessoa, Paraíba, Brasil · Presencial  
+                  <br>Responsabilidades: Gestão de pessoas, Amazon EC2 e mais 12 competências.
+                </li>
+                <li><strong>Analista de Suporte de TI</strong> - Cidade Viva (dez de 2021 - dez de 2022 · 1 ano 1 mês)  
+                  <br>Responsabilidades: Suporte técnico, Amazon EC2 e mais 13 competências.
+                </li>
+                <li><strong>Analista de Suporte</strong> - CBA Ityhy (set de 2021 - dez de 2021 · 4 meses)  
+                  <br>Local: João Pessoa, Paraíba, Brasil · Remota  
+                  <br>Responsabilidades: Suporte técnico e Suporte ao cliente.
+                </li>
+                <li><strong>Assessor de Suporte Operacional</strong> - Prefeitura Municipal de Cabedelo (jan de 2020 - dez de 2020 · 1 ano)  
+                  <br>Local: Cabedelo, Paraíba, Brasil · Presencial  
+                  <br>Responsabilidades: Cabeamento estruturado, Tecnologias de rede sem fio e mais 2 competências.
+                </li>
+                <li><strong>Estagiário de TI</strong> - Elizabeth Revestimentos (fev de 2019 - out de 2019 · 9 meses)  
+                  <br>Local: João Pessoa, Paraíba, Brasil · Presencial  
+                  <br>Responsabilidades: Cabeamento estruturado, Suporte técnico e mais 4 competências.
+                </li>
+              </ul>
+            </section>
+        
+            <section>
+              <h4>Educação</h4>
+              <ul>
+                <li><strong>Unipê</strong> - Bacharelado, Ciência da Computação  
+                  <br>Em andamento.
+                </li>
+              </ul>
+            </section>
+        
+            <section>
+              <h4>Habilidades</h4>
+              <ul>
+                <li>Gestão de pessoas</li>
+                <li>Amazon EC2</li>
+                <li>Suporte técnico</li>
+                <li>Redes de computadores</li>
+                <li>Cabeamento estruturado</li>
+                <li>Atendimento ao cliente</li>
+                <li>Infraestrutura de TI</li>
+                <li>Manutenção de hardware</li>
+                <li>Instalação de softwares</li>
+                <li>Conhecimento em sistemas operacionais</li>
+                <li>Gerenciamento de redes sem fio</li>
+                <li>Trabalho em equipe</li>
+                <li>Resolução de problemas</li>
+              </ul>
+            </section>
+        </div>
+        <div class="referencias">
+            <span class="h4">Referências disponíveis mediante solicitação.</span>
+            <a href="./contato.html" target="_blank" class="btn-contato mt-4">Solicitar <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></a>
+        </div>
     </section>
     <footer class="">
         <div>
